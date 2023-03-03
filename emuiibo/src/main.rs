@@ -65,7 +65,7 @@ pub fn main() -> Result<()> {
     log!("Hello world!\n");
 
     miiext::initialize()?;
-    miiext::export_miis()?;
+    //miiext::export_miis()?;
 
     amiibo::compat::convert_deprecated_virtual_amiibos();
 
